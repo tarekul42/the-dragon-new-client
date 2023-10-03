@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 
 const Header = () => {
     return (
-        <Container>
+        <Container className='mt-4'>
             <div className="text-center">
                 <img src={logo} alt="the drago news logo" />
                 <p className='text-secondary'><small>Journalism Without Fear of Favour</small></p>
